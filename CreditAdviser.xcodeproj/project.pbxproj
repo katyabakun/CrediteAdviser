@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062ADE201EDECEF7009FBD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */; };
+		062ADE221EDECEF7009FBD57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE211EDECEF7009FBD57 /* ViewController.swift */; };
+		062ADE251EDECEF7009FBD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062ADE231EDECEF7009FBD57 /* Main.storyboard */; };
+		062ADE281EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE261EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld */; };
+		062ADE2A1EDECEF7009FBD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062ADE291EDECEF7009FBD57 /* Assets.xcassets */; };
+		062ADE2D1EDECEF7009FBD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062ADE1C1EDECEF7009FBD57 /* CreditAdviser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditAdviser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		062ADE211EDECEF7009FBD57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		062ADE241EDECEF7009FBD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		062ADE271EDECEF7009FBD57 /* CreditAdviser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditAdviser.xcdatamodel; sourceTree = "<group>"; };
+		062ADE291EDECEF7009FBD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		062ADE2C1EDECEF7009FBD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		062ADE2E1EDECEF7009FBD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062ADE191EDECEF7009FBD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062ADE131EDECEF7009FBD57 = {
+			isa = PBXGroup;
+			children = (
+				062ADE1E1EDECEF7009FBD57 /* CreditAdviser */,
+				062ADE1D1EDECEF7009FBD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		062ADE1D1EDECEF7009FBD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE1C1EDECEF7009FBD57 /* CreditAdviser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062ADE1E1EDECEF7009FBD57 /* CreditAdviser */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */,
+				062ADE211EDECEF7009FBD57 /* ViewController.swift */,
+				062ADE231EDECEF7009FBD57 /* Main.storyboard */,
+				062ADE291EDECEF7009FBD57 /* Assets.xcassets */,
+				062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */,
+				062ADE2E1EDECEF7009FBD57 /* Info.plist */,
+				062ADE261EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld */,
+			);
+			path = CreditAdviser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062ADE1B1EDECEF7009FBD57 /* CreditAdviser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062ADE311EDECEF7009FBD57 /* Build configuration list for PBXNativeTarget "CreditAdviser" */;
+			buildPhases = (
+				062ADE181EDECEF7009FBD57 /* Sources */,
+				062ADE191EDECEF7009FBD57 /* Frameworks */,
+				062ADE1A1EDECEF7009FBD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditAdviser;
+			productName = CreditAdviser;
+			productReference = 062ADE1C1EDECEF7009FBD57 /* CreditAdviser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062ADE141EDECEF7009FBD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Katerina Bakun";
+				TargetAttributes = {
+					062ADE1B1EDECEF7009FBD57 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7Z48AFUPSX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 062ADE171EDECEF7009FBD57 /* Build configuration list for PBXProject "CreditAdviser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 062ADE131EDECEF7009FBD57;
+			productRefGroup = 062ADE1D1EDECEF7009FBD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062ADE1B1EDECEF7009FBD57 /* CreditAdviser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062ADE1A1EDECEF7009FBD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062ADE2D1EDECEF7009FBD57 /* LaunchScreen.storyboard in Resources */,
+				062ADE2A1EDECEF7009FBD57 /* Assets.xcassets in Resources */,
+				062ADE251EDECEF7009FBD57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062ADE181EDECEF7009FBD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062ADE281EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld in Sources */,
+				062ADE221EDECEF7009FBD57 /* ViewController.swift in Sources */,
+				062ADE201EDECEF7009FBD57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		062ADE231EDECEF7009FBD57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062ADE241EDECEF7009FBD57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062ADE2C1EDECEF7009FBD57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		062ADE2F1EDECEF7009FBD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		062ADE301EDECEF7009FBD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062ADE321EDECEF7009FBD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z48AFUPSX;
+				INFOPLIST_FILE = CreditAdviser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.katerinabakun.CreditAdviser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		062ADE331EDECEF7009FBD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Z48AFUPSX;
+				INFOPLIST_FILE = CreditAdviser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.katerinabakun.CreditAdviser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062ADE171EDECEF7009FBD57 /* Build configuration list for PBXProject "CreditAdviser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062ADE2F1EDECEF7009FBD57 /* Debug */,
+				062ADE301EDECEF7009FBD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062ADE311EDECEF7009FBD57 /* Build configuration list for PBXNativeTarget "CreditAdviser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062ADE321EDECEF7009FBD57 /* Debug */,
+				062ADE331EDECEF7009FBD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		062ADE261EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				062ADE271EDECEF7009FBD57 /* CreditAdviser.xcdatamodel */,
+			);
+			currentVersion = 062ADE271EDECEF7009FBD57 /* CreditAdviser.xcdatamodel */;
+			path = CreditAdviser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 062ADE141EDECEF7009FBD57 /* Project object */;
+}
