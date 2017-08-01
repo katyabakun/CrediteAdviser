@@ -12,11 +12,19 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+       var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let mainVC = MainMenuViewController()
+        let filterVC = FilterViewController()
+        let navMainVC = UINavigationController(rootViewController: mainVC)
+        navMainVC.navigationBar.isTranslucent = false
+        window?.rootViewController = navMainVC
+        window?.makeKeyAndVisible()
+        
+
         return true
     }
 

@@ -7,23 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06032D651EEFDF60002BDA7F /* BankFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06032D641EEFDF60002BDA7F /* BankFilterCell.swift */; };
+		06032D691EF035C3002BDA7F /* BankHeaderSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06032D681EF035C3002BDA7F /* BankHeaderSectionCell.swift */; };
+		06032D6B1EF04A49002BDA7F /* BankFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06032D6A1EF04A49002BDA7F /* BankFilterView.swift */; };
+		06032D711EF12C9C002BDA7F /* CriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06032D701EF12C9C002BDA7F /* CriteriaView.swift */; };
+		06032D731EF12CB0002BDA7F /* CriteriaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06032D721EF12CB0002BDA7F /* CriteriaCellView.swift */; };
+		06032D751EF12CD2002BDA7F /* CriteriaComparitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06032D741EF12CD2002BDA7F /* CriteriaComparitionViewController.swift */; };
+		062396061EF87F3F004F53C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062396051EF87F3F004F53C9 /* Constants.swift */; };
+		062396081EF89682004F53C9 /* FoldingCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062396071EF89682004F53C9 /* FoldingCell.framework */; };
+		062396091EF89687004F53C9 /* FoldingCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062396071EF89682004F53C9 /* FoldingCell.framework */; };
+		0623960A1EF89687004F53C9 /* FoldingCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 062396071EF89682004F53C9 /* FoldingCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0623960C1EF89BAF004F53C9 /* BankFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623960B1EF89BAF004F53C9 /* BankFoldingCell.swift */; };
+		0623960E1EF8A012004F53C9 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0623960D1EF8A012004F53C9 /* EasyPeasy.framework */; };
+		0623960F1EF8A017004F53C9 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0623960D1EF8A012004F53C9 /* EasyPeasy.framework */; };
+		062396101EF8A017004F53C9 /* EasyPeasy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0623960D1EF8A012004F53C9 /* EasyPeasy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		062ADE201EDECEF7009FBD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */; };
-		062ADE221EDECEF7009FBD57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE211EDECEF7009FBD57 /* ViewController.swift */; };
-		062ADE251EDECEF7009FBD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062ADE231EDECEF7009FBD57 /* Main.storyboard */; };
-		062ADE281EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE261EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld */; };
+		062ADE221EDECEF7009FBD57 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE211EDECEF7009FBD57 /* MainMenuViewController.swift */; };
 		062ADE2A1EDECEF7009FBD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062ADE291EDECEF7009FBD57 /* Assets.xcassets */; };
 		062ADE2D1EDECEF7009FBD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */; };
+		062ADE401EDEFE93009FBD57 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE3F1EDEFE93009FBD57 /* Cartography.framework */; };
+		062ADE421EDEFE98009FBD57 /* CircleMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE411EDEFE98009FBD57 /* CircleMenu.framework */; };
+		062ADE461EDEFEA1009FBD57 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE451EDEFEA1009FBD57 /* Eureka.framework */; };
+		062ADE481EDEFFEE009FBD57 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE451EDEFEA1009FBD57 /* Eureka.framework */; };
+		062ADE491EDEFFEE009FBD57 /* Eureka.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE451EDEFEA1009FBD57 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		062ADE4C1EDEFFEE009FBD57 /* CircleMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE411EDEFE98009FBD57 /* CircleMenu.framework */; };
+		062ADE4D1EDEFFEE009FBD57 /* CircleMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE411EDEFE98009FBD57 /* CircleMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		062ADE4E1EDEFFEE009FBD57 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE3F1EDEFE93009FBD57 /* Cartography.framework */; };
+		062ADE4F1EDEFFEE009FBD57 /* Cartography.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 062ADE3F1EDEFE93009FBD57 /* Cartography.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		062ADE531EDF003E009FBD57 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE521EDF003E009FBD57 /* BaseViewController.swift */; };
+		062ADE551EDF0098009FBD57 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE541EDF0098009FBD57 /* MainMenuView.swift */; };
+		062ADE6F1EDF30C3009FBD57 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE6E1EDF30C3009FBD57 /* BankViewController.swift */; };
+		062ADE7A1EDF7628009FBD57 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE791EDF7628009FBD57 /* FilterView.swift */; };
+		062ADE7C1EDF7641009FBD57 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062ADE7B1EDF7641009FBD57 /* FilterViewController.swift */; };
+		062F0D5A1EFA2C9D00D2199C /* SubcriteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F0D591EFA2C9D00D2199C /* SubcriteriaViewController.swift */; };
+		062F0D5C1EFA389B00D2199C /* Chart2ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F0D5B1EFA389B00D2199C /* Chart2ViewC.swift */; };
+		065B13381EEF008600E7AF29 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B13371EEF008600E7AF29 /* LoadingView.swift */; };
+		065B133A1EEF00A700E7AF29 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B13391EEF00A700E7AF29 /* LoadingViewController.swift */; };
+		065B133E1EEF09AF00E7AF29 /* BankFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B133D1EEF09AF00E7AF29 /* BankFilterViewController.swift */; };
+		06888CA11EF2F0520097A7E6 /* CoreActionSheetPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06888CA01EF2F0510097A7E6 /* CoreActionSheetPicker.framework */; };
+		06888CA21EF2F0560097A7E6 /* CoreActionSheetPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06888CA01EF2F0510097A7E6 /* CoreActionSheetPicker.framework */; };
+		06888CA31EF2F0560097A7E6 /* CoreActionSheetPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06888CA01EF2F0510097A7E6 /* CoreActionSheetPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		069DFBB61EF5ED5200BA2FD7 /* CriteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069DFBB51EF5ED5200BA2FD7 /* CriteriaViewController.swift */; };
+		069DFBB81EF65A1300BA2FD7 /* ExtendedCriteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069DFBB71EF65A1300BA2FD7 /* ExtendedCriteriaViewController.swift */; };
+		069DFBBA1EF6630300BA2FD7 /* MiddleCriteriaComparitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069DFBB91EF6630300BA2FD7 /* MiddleCriteriaComparitionViewController.swift */; };
+		06B7D3CB1EE6CF8F0088B63F /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7D3CA1EE6CF8F0088B63F /* Bank.swift */; };
+		06B7D3CD1EE6FA6A0088B63F /* CSVImporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B7D3CC1EE6FA6A0088B63F /* CSVImporter.framework */; };
+		06B7D3CF1EE6FA840088B63F /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B7D3CE1EE6FA840088B63F /* HandySwift.framework */; };
+		06B7D3D01EE6FA8A0088B63F /* HandySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B7D3CE1EE6FA840088B63F /* HandySwift.framework */; };
+		06B7D3D11EE6FA8A0088B63F /* HandySwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06B7D3CE1EE6FA840088B63F /* HandySwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06B7D3D21EE6FA8A0088B63F /* CSVImporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B7D3CC1EE6FA6A0088B63F /* CSVImporter.framework */; };
+		06B7D3D31EE6FA8A0088B63F /* CSVImporter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06B7D3CC1EE6FA6A0088B63F /* CSVImporter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06B7D3D51EE7098E0088B63F /* ImageCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7D3D41EE7098E0088B63F /* ImageCheckCell.swift */; };
+		06B7D3D71EE70A260088B63F /* ImageCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7D3D61EE70A260088B63F /* ImageCheckRow.swift */; };
+		06B7D3D91EE711360088B63F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7D3D81EE711360088B63F /* UserData.swift */; };
+		06F0F0DF1EF9BF130015C5E4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F0F0DE1EF9BF130015C5E4 /* Charts.framework */; };
+		06F0F0E01EF9BF170015C5E4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F0F0DE1EF9BF130015C5E4 /* Charts.framework */; };
+		06F0F0E11EF9BF170015C5E4 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06F0F0DE1EF9BF130015C5E4 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		06F0F0E41EF9C1400015C5E4 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F0E31EF9C1400015C5E4 /* ChartViewController.swift */; };
+		06F0F0E71EF9C19A0015C5E4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F0E61EF9C19A0015C5E4 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		062ADE501EDEFFEE009FBD57 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				06888CA31EF2F0560097A7E6 /* CoreActionSheetPicker.framework in Embed Frameworks */,
+				06B7D3D31EE6FA8A0088B63F /* CSVImporter.framework in Embed Frameworks */,
+				062ADE4F1EDEFFEE009FBD57 /* Cartography.framework in Embed Frameworks */,
+				06F0F0E11EF9BF170015C5E4 /* Charts.framework in Embed Frameworks */,
+				062396101EF8A017004F53C9 /* EasyPeasy.framework in Embed Frameworks */,
+				062ADE491EDEFFEE009FBD57 /* Eureka.framework in Embed Frameworks */,
+				062ADE4D1EDEFFEE009FBD57 /* CircleMenu.framework in Embed Frameworks */,
+				0623960A1EF89687004F53C9 /* FoldingCell.framework in Embed Frameworks */,
+				06B7D3D11EE6FA8A0088B63F /* HandySwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		06032D641EEFDF60002BDA7F /* BankFilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankFilterCell.swift; sourceTree = "<group>"; };
+		06032D681EF035C3002BDA7F /* BankHeaderSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankHeaderSectionCell.swift; sourceTree = "<group>"; };
+		06032D6A1EF04A49002BDA7F /* BankFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankFilterView.swift; sourceTree = "<group>"; };
+		06032D701EF12C9C002BDA7F /* CriteriaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriteriaView.swift; sourceTree = "<group>"; };
+		06032D721EF12CB0002BDA7F /* CriteriaCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriteriaCellView.swift; sourceTree = "<group>"; };
+		06032D741EF12CD2002BDA7F /* CriteriaComparitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriteriaComparitionViewController.swift; sourceTree = "<group>"; };
+		062396051EF87F3F004F53C9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		062396071EF89682004F53C9 /* FoldingCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoldingCell.framework; path = Carthage/Build/iOS/FoldingCell.framework; sourceTree = "<group>"; };
+		0623960B1EF89BAF004F53C9 /* BankFoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankFoldingCell.swift; sourceTree = "<group>"; };
+		0623960D1EF8A012004F53C9 /* EasyPeasy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyPeasy.framework; path = Carthage/Build/iOS/EasyPeasy.framework; sourceTree = "<group>"; };
 		062ADE1C1EDECEF7009FBD57 /* CreditAdviser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditAdviser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		062ADE211EDECEF7009FBD57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		062ADE241EDECEF7009FBD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		062ADE271EDECEF7009FBD57 /* CreditAdviser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditAdviser.xcdatamodel; sourceTree = "<group>"; };
+		062ADE211EDECEF7009FBD57 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		062ADE291EDECEF7009FBD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		062ADE2C1EDECEF7009FBD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		062ADE2E1EDECEF7009FBD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062ADE3F1EDEFE93009FBD57 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
+		062ADE411EDEFE98009FBD57 /* CircleMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CircleMenu.framework; path = Carthage/Build/iOS/CircleMenu.framework; sourceTree = "<group>"; };
+		062ADE431EDEFE9D009FBD57 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = Carthage/Build/iOS/DZNEmptyDataSet.framework; sourceTree = "<group>"; };
+		062ADE451EDEFEA1009FBD57 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
+		062ADE521EDF003E009FBD57 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		062ADE541EDF0098009FBD57 /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		062ADE6E1EDF30C3009FBD57 /* BankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		062ADE791EDF7628009FBD57 /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		062ADE7B1EDF7641009FBD57 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		062F0D591EFA2C9D00D2199C /* SubcriteriaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubcriteriaViewController.swift; sourceTree = "<group>"; };
+		062F0D5B1EFA389B00D2199C /* Chart2ViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart2ViewC.swift; sourceTree = "<group>"; };
+		065B13371EEF008600E7AF29 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		065B13391EEF00A700E7AF29 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		065B133D1EEF09AF00E7AF29 /* BankFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankFilterViewController.swift; sourceTree = "<group>"; };
+		06888CA01EF2F0510097A7E6 /* CoreActionSheetPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreActionSheetPicker.framework; path = Carthage/Build/iOS/CoreActionSheetPicker.framework; sourceTree = "<group>"; };
+		069DFBB51EF5ED5200BA2FD7 /* CriteriaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriteriaViewController.swift; sourceTree = "<group>"; };
+		069DFBB71EF65A1300BA2FD7 /* ExtendedCriteriaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedCriteriaViewController.swift; sourceTree = "<group>"; };
+		069DFBB91EF6630300BA2FD7 /* MiddleCriteriaComparitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleCriteriaComparitionViewController.swift; sourceTree = "<group>"; };
+		06B7D3CA1EE6CF8F0088B63F /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		06B7D3CC1EE6FA6A0088B63F /* CSVImporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSVImporter.framework; path = Carthage/Build/iOS/CSVImporter.framework; sourceTree = "<group>"; };
+		06B7D3CE1EE6FA840088B63F /* HandySwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandySwift.framework; path = Carthage/Build/iOS/HandySwift.framework; sourceTree = "<group>"; };
+		06B7D3D41EE7098E0088B63F /* ImageCheckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCheckCell.swift; sourceTree = "<group>"; };
+		06B7D3D61EE70A260088B63F /* ImageCheckRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCheckRow.swift; sourceTree = "<group>"; };
+		06B7D3D81EE711360088B63F /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		06F0F0DE1EF9BF130015C5E4 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
+		06F0F0E31EF9C1400015C5E4 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		06F0F0E61EF9C19A0015C5E4 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +140,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F0F0DF1EF9BF130015C5E4 /* Charts.framework in Frameworks */,
+				0623960E1EF8A012004F53C9 /* EasyPeasy.framework in Frameworks */,
+				062396081EF89682004F53C9 /* FoldingCell.framework in Frameworks */,
+				06F0F0E01EF9BF170015C5E4 /* Charts.framework in Frameworks */,
+				06888CA11EF2F0520097A7E6 /* CoreActionSheetPicker.framework in Frameworks */,
+				0623960F1EF8A017004F53C9 /* EasyPeasy.framework in Frameworks */,
+				06888CA21EF2F0560097A7E6 /* CoreActionSheetPicker.framework in Frameworks */,
+				06B7D3CF1EE6FA840088B63F /* HandySwift.framework in Frameworks */,
+				06B7D3CD1EE6FA6A0088B63F /* CSVImporter.framework in Frameworks */,
+				062ADE461EDEFEA1009FBD57 /* Eureka.framework in Frameworks */,
+				062ADE421EDEFE98009FBD57 /* CircleMenu.framework in Frameworks */,
+				06B7D3D01EE6FA8A0088B63F /* HandySwift.framework in Frameworks */,
+				06B7D3D21EE6FA8A0088B63F /* CSVImporter.framework in Frameworks */,
+				062ADE4C1EDEFFEE009FBD57 /* CircleMenu.framework in Frameworks */,
+				062ADE4E1EDEFFEE009FBD57 /* Cartography.framework in Frameworks */,
+				062ADE401EDEFE93009FBD57 /* Cartography.framework in Frameworks */,
+				062396091EF89687004F53C9 /* FoldingCell.framework in Frameworks */,
+				062ADE481EDEFFEE009FBD57 /* Eureka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06032D6C1EF12C1B002BDA7F /* CriteriaComparison */ = {
+			isa = PBXGroup;
+			children = (
+				06032D6F1EF12C69002BDA7F /* View */,
+				06032D741EF12CD2002BDA7F /* CriteriaComparitionViewController.swift */,
+			);
+			name = CriteriaComparison;
+			sourceTree = "<group>";
+		};
+		06032D6F1EF12C69002BDA7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06032D701EF12C9C002BDA7F /* CriteriaView.swift */,
+				06032D721EF12CB0002BDA7F /* CriteriaCellView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		062396041EF87F26004F53C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				062396051EF87F3F004F53C9 /* Constants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		062ADE131EDECEF7009FBD57 = {
 			isa = PBXGroup;
 			children = (
 				062ADE1E1EDECEF7009FBD57 /* CreditAdviser */,
 				062ADE1D1EDECEF7009FBD57 /* Products */,
+				062ADE3E1EDEFE92009FBD57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +210,199 @@
 		062ADE1E1EDECEF7009FBD57 /* CreditAdviser */ = {
 			isa = PBXGroup;
 			children = (
-				062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */,
-				062ADE211EDECEF7009FBD57 /* ViewController.swift */,
-				062ADE231EDECEF7009FBD57 /* Main.storyboard */,
-				062ADE291EDECEF7009FBD57 /* Assets.xcassets */,
-				062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */,
-				062ADE2E1EDECEF7009FBD57 /* Info.plist */,
-				062ADE261EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld */,
+				062396041EF87F26004F53C9 /* Helpers */,
+				062ADE371EDED10A009FBD57 /* Models */,
+				062ADE3B1EDED1EB009FBD57 /* LaunchScreen */,
+				062ADE351EDED0F5009FBD57 /* Controllers */,
+				062ADE391EDED1A2009FBD57 /* Other */,
 			);
 			path = CreditAdviser;
+			sourceTree = "<group>";
+		};
+		062ADE351EDED0F5009FBD57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				06F0F0E21EF9C1280015C5E4 /* Charts */,
+				069DFBB41EF5ED2700BA2FD7 /* Criteria */,
+				06032D6C1EF12C1B002BDA7F /* CriteriaComparison */,
+				065B133B1EEF097A00E7AF29 /* BankFiltering */,
+				065B13351EEF006000E7AF29 /* Loading */,
+				062ADE771EDF75FB009FBD57 /* Filter */,
+				062ADE6D1EDF3099009FBD57 /* BankBase */,
+				062ADE511EDF0020009FBD57 /* Base */,
+				062ADE361EDED0FD009FBD57 /* MainMenu */,
+				062ADE211EDECEF7009FBD57 /* MainMenuViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		062ADE361EDED0FD009FBD57 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE3A1EDED1E0009FBD57 /* View */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		062ADE371EDED10A009FBD57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06B7D3CA1EE6CF8F0088B63F /* Bank.swift */,
+				06B7D3D81EE711360088B63F /* UserData.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		062ADE391EDED1A2009FBD57 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE1F1EDECEF7009FBD57 /* AppDelegate.swift */,
+				062ADE291EDECEF7009FBD57 /* Assets.xcassets */,
+				062ADE2E1EDECEF7009FBD57 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		062ADE3A1EDED1E0009FBD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE541EDF0098009FBD57 /* MainMenuView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		062ADE3B1EDED1EB009FBD57 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		062ADE3E1EDEFE92009FBD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F0F0DE1EF9BF130015C5E4 /* Charts.framework */,
+				0623960D1EF8A012004F53C9 /* EasyPeasy.framework */,
+				062396071EF89682004F53C9 /* FoldingCell.framework */,
+				06888CA01EF2F0510097A7E6 /* CoreActionSheetPicker.framework */,
+				06B7D3CE1EE6FA840088B63F /* HandySwift.framework */,
+				06B7D3CC1EE6FA6A0088B63F /* CSVImporter.framework */,
+				062ADE451EDEFEA1009FBD57 /* Eureka.framework */,
+				062ADE431EDEFE9D009FBD57 /* DZNEmptyDataSet.framework */,
+				062ADE411EDEFE98009FBD57 /* CircleMenu.framework */,
+				062ADE3F1EDEFE93009FBD57 /* Cartography.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		062ADE511EDF0020009FBD57 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE521EDF003E009FBD57 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		062ADE6D1EDF3099009FBD57 /* BankBase */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE701EDF3124009FBD57 /* View */,
+				062ADE6E1EDF30C3009FBD57 /* BankViewController.swift */,
+			);
+			name = BankBase;
+			sourceTree = "<group>";
+		};
+		062ADE701EDF3124009FBD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0623960B1EF89BAF004F53C9 /* BankFoldingCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		062ADE771EDF75FB009FBD57 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE781EDF7603009FBD57 /* View */,
+				062ADE7B1EDF7641009FBD57 /* FilterViewController.swift */,
+			);
+			name = Filter;
+			sourceTree = "<group>";
+		};
+		062ADE781EDF7603009FBD57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				062ADE791EDF7628009FBD57 /* FilterView.swift */,
+				06B7D3D41EE7098E0088B63F /* ImageCheckCell.swift */,
+				06B7D3D61EE70A260088B63F /* ImageCheckRow.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		065B13351EEF006000E7AF29 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				065B13361EEF006F00E7AF29 /* View */,
+				065B13391EEF00A700E7AF29 /* LoadingViewController.swift */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		065B13361EEF006F00E7AF29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				065B13371EEF008600E7AF29 /* LoadingView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		065B133B1EEF097A00E7AF29 /* BankFiltering */ = {
+			isa = PBXGroup;
+			children = (
+				065B133C1EEF098C00E7AF29 /* View */,
+				065B133D1EEF09AF00E7AF29 /* BankFilterViewController.swift */,
+			);
+			name = BankFiltering;
+			sourceTree = "<group>";
+		};
+		065B133C1EEF098C00E7AF29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06032D641EEFDF60002BDA7F /* BankFilterCell.swift */,
+				06032D681EF035C3002BDA7F /* BankHeaderSectionCell.swift */,
+				06032D6A1EF04A49002BDA7F /* BankFilterView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		069DFBB41EF5ED2700BA2FD7 /* Criteria */ = {
+			isa = PBXGroup;
+			children = (
+				069DFBB51EF5ED5200BA2FD7 /* CriteriaViewController.swift */,
+				069DFBB71EF65A1300BA2FD7 /* ExtendedCriteriaViewController.swift */,
+				069DFBB91EF6630300BA2FD7 /* MiddleCriteriaComparitionViewController.swift */,
+				062F0D591EFA2C9D00D2199C /* SubcriteriaViewController.swift */,
+			);
+			name = Criteria;
+			sourceTree = "<group>";
+		};
+		06F0F0E21EF9C1280015C5E4 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				06F0F0E51EF9C1540015C5E4 /* View */,
+				06F0F0E31EF9C1400015C5E4 /* ChartViewController.swift */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		06F0F0E51EF9C1540015C5E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06F0F0E61EF9C19A0015C5E4 /* ChartView.swift */,
+				062F0D5B1EFA389B00D2199C /* Chart2ViewC.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +415,8 @@
 				062ADE181EDECEF7009FBD57 /* Sources */,
 				062ADE191EDECEF7009FBD57 /* Frameworks */,
 				062ADE1A1EDECEF7009FBD57 /* Resources */,
+				062ADE471EDEFEC7009FBD57 /* ShellScript */,
+				062ADE501EDEFFEE009FBD57 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,34 +469,76 @@
 			files = (
 				062ADE2D1EDECEF7009FBD57 /* LaunchScreen.storyboard in Resources */,
 				062ADE2A1EDECEF7009FBD57 /* Assets.xcassets in Resources */,
-				062ADE251EDECEF7009FBD57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062ADE471EDEFEC7009FBD57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Eureka.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CircleMenu.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cartography.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HandySwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CSVImporter.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CoreActionSheetPicker.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FolfingCell.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EasyPeasy.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Charts.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		062ADE181EDECEF7009FBD57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062ADE281EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld in Sources */,
-				062ADE221EDECEF7009FBD57 /* ViewController.swift in Sources */,
+				06B7D3D91EE711360088B63F /* UserData.swift in Sources */,
+				069DFBB61EF5ED5200BA2FD7 /* CriteriaViewController.swift in Sources */,
+				069DFBB81EF65A1300BA2FD7 /* ExtendedCriteriaViewController.swift in Sources */,
+				062ADE7C1EDF7641009FBD57 /* FilterViewController.swift in Sources */,
+				065B133A1EEF00A700E7AF29 /* LoadingViewController.swift in Sources */,
+				062ADE7A1EDF7628009FBD57 /* FilterView.swift in Sources */,
+				062F0D5A1EFA2C9D00D2199C /* SubcriteriaViewController.swift in Sources */,
+				062396061EF87F3F004F53C9 /* Constants.swift in Sources */,
+				062ADE551EDF0098009FBD57 /* MainMenuView.swift in Sources */,
+				06032D651EEFDF60002BDA7F /* BankFilterCell.swift in Sources */,
+				065B13381EEF008600E7AF29 /* LoadingView.swift in Sources */,
+				062ADE221EDECEF7009FBD57 /* MainMenuViewController.swift in Sources */,
+				062ADE531EDF003E009FBD57 /* BaseViewController.swift in Sources */,
 				062ADE201EDECEF7009FBD57 /* AppDelegate.swift in Sources */,
+				06032D691EF035C3002BDA7F /* BankHeaderSectionCell.swift in Sources */,
+				065B133E1EEF09AF00E7AF29 /* BankFilterViewController.swift in Sources */,
+				06032D751EF12CD2002BDA7F /* CriteriaComparitionViewController.swift in Sources */,
+				06B7D3D71EE70A260088B63F /* ImageCheckRow.swift in Sources */,
+				06F0F0E41EF9C1400015C5E4 /* ChartViewController.swift in Sources */,
+				06B7D3D51EE7098E0088B63F /* ImageCheckCell.swift in Sources */,
+				06032D711EF12C9C002BDA7F /* CriteriaView.swift in Sources */,
+				06032D731EF12CB0002BDA7F /* CriteriaCellView.swift in Sources */,
+				069DFBBA1EF6630300BA2FD7 /* MiddleCriteriaComparitionViewController.swift in Sources */,
+				062F0D5C1EFA389B00D2199C /* Chart2ViewC.swift in Sources */,
+				06B7D3CB1EE6CF8F0088B63F /* Bank.swift in Sources */,
+				06F0F0E71EF9C19A0015C5E4 /* ChartView.swift in Sources */,
+				0623960C1EF89BAF004F53C9 /* BankFoldingCell.swift in Sources */,
+				062ADE6F1EDF30C3009FBD57 /* BankViewController.swift in Sources */,
+				06032D6B1EF04A49002BDA7F /* BankFilterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		062ADE231EDECEF7009FBD57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				062ADE241EDECEF7009FBD57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		062ADE2B1EDECEF7009FBD57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -266,11 +648,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Z48AFUPSX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CreditAdviser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.katerinabakun.CreditAdviser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -279,11 +666,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Z48AFUPSX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CreditAdviser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.katerinabakun.CreditAdviser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -306,21 +698,9 @@
 				062ADE331EDECEF7009FBD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		062ADE261EDECEF7009FBD57 /* CreditAdviser.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				062ADE271EDECEF7009FBD57 /* CreditAdviser.xcdatamodel */,
-			);
-			currentVersion = 062ADE271EDECEF7009FBD57 /* CreditAdviser.xcdatamodel */;
-			path = CreditAdviser.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 062ADE141EDECEF7009FBD57 /* Project object */;
 }

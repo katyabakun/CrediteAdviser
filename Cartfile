@@ -1,0 +1,8 @@
+github "Ramotion/circle-menu"
+github "xmartlabs/Eureka" ~> 3.0
+github "Ramotion/folding-cell"
+github "https://github.com/robb/Cartography.git"
+github "Flinesoft/CSVImporter" ~> 1.7
+github "skywinder/ActionSheetPicker-3.0"
+github "nakiostudio/EasyPeasy"
+github "danielgindi/Charts"
